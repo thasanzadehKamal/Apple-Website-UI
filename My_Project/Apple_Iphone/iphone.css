@@ -489,6 +489,12 @@ a:hover {
   color: #0070c9;
 }
 
+.pages ul a:focus-visible {
+  outline: 2px solid #0070c9;
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
 img,
 button,
 [class*="card"],
