@@ -1,0 +1,3 @@
+## 2025-05-14 - Navigation Accessibility and Consistency
+**Learning:** In a static site with manually replicated global components (like the navigation header), accessibility updates must be meticulously propagated to every instance. Missing `aria-label` on icon-only links and `aria-hidden` on decorative icons significantly impacts screen reader usability. Additionally, inconsistent internal linking (e.g., "TV & Home" pointing to '#' vs a real page) breaks the mental model of the site structure.
+**Action:** Always perform a project-wide search for replicated UI elements when applying accessibility or UX fixes. Use scoped locators in verification scripts to ensure consistency across all pages.
