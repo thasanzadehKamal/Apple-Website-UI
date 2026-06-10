@@ -1,0 +1,3 @@
+## 2025-05-14 - Navigation Accessibility and Consistency
+**Learning:** In a static site without components, manual replication of global elements (like the navigation bar) often leads to accessibility regressions and broken links. Using ARIA labels on icon-only links is critical for screen reader users, and `aria-hidden="true"` on the icons themselves prevents redundant announcements.
+**Action:** Always verify global elements like navigation bars across all site pages when making micro-UX improvements. Use scoped Playwright locators to target specific regions (e.g., `#mainNav`) to avoid "strict mode violation" errors when similar elements exist in both header and footer.
