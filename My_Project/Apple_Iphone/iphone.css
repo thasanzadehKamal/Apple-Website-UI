@@ -489,6 +489,13 @@ a:hover {
   color: #0070c9;
 }
 
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #0070c9;
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
 img,
 button,
 [class*="card"],
