@@ -80,6 +80,13 @@ a {
   transition: color 0.2s ease;
 }
 
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #0070c9;
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
 a:hover {
   color: #0070c9;
 }
