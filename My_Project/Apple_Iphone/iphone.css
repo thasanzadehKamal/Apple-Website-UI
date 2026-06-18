@@ -682,3 +682,11 @@ button:hover {
     margin-left: 0;
   }
 }
+
+/* Standardized focus indicators */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #0070c9;
+  outline-offset: 4px;
+  border-radius: 2px;
+}

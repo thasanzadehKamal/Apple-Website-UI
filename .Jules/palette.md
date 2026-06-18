@@ -1,0 +1,3 @@
+## 2025-05-14 - Standardizing Global Navigation Accessibility
+**Learning:** In a static multi-page site without a shared header component, global navigation elements must be manually synchronized. Adding ARIA labels to icon-only links and ensuring consistent focus indicators significantly improves the experience for screen reader and keyboard users across the entire site.
+**Action:** Use a consistent focus-visible style (`outline: 2px solid #0070c9; outline-offset: 4px; border-radius: 2px;`) across all section CSS files and verify icon-only interactive elements have descriptive `aria-label` attributes.
