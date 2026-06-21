@@ -492,6 +492,13 @@ h1{
   color: #0070c9;
 }
 
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #0070c9;
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
 .search input,
 .search button {
   transition: box-shadow 0.2s ease, border-color 0.2s ease;
