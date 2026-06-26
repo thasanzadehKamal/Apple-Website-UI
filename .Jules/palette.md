@@ -1,0 +1,3 @@
+## 2025-05-14 - Standardizing Global Navigation Accessibility
+**Learning:** In a static site where global navigation components are manually replicated across multiple HTML files, synchronization of accessibility attributes (like `aria-label` for icon-only links) is easily overlooked but critical for screen reader users. Additionally, character encoding artifacts (e.g., `В©`) are common in such projects and must be proactively cleaned to maintain visual polish.
+**Action:** When updating shared UI components in a multi-page static site, use grep or automated scripts to ensure all instances are consistently patched with appropriate ARIA attributes and correct UTF-8 characters.
